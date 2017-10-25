@@ -1,0 +1,11 @@
+{
+    "require": {
+        "doctrine/orm": "v2.5.6",
+        "phing/phing": "2.*",
+	 "phpunit/phpunit": "6.2.*"
+    }, 
+    "require-dev": {
+	 "squizlabs/php_codesniffer": "2.*"
+    }
+}
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\wamp64\www\unleash\application/models</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">C:\wamp64\www\unleash\application</a></li>
+        <li><a href="index.html">models</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command_chain.php.html#11">Command_chain</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Save_command.php.html#12">Save_command</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Send_command.php.html#12">Send_command</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command_chain.php.html#11">Command_chain</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Send_command.php.html#12">Send_command</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Save_command.php.html#12">Save_command</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Command_chain.php.html#18"><abbr title="Command_chain::add_command">add_command</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command_chain.php.html#29"><abbr title="Command_chain::run_command">run_command</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Save_command.php.html#21"><abbr title="Save_command::handle">handle</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Send_command.php.html#21"><abbr title="Send_command::handle">handle</a></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Send_command.php.html#21"><abbr title="Send_command::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Command_chain.php.html#29"><abbr title="Command_chain::run_command">run_command</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Save_command.php.html#21"><abbr title="Save_command::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.17</a> using <a href="https://secure.php.net/" target="_top">PHP 7.0.10</a> and <a href="http://phpunit.de/">PHPUnit 4.0.20</a> at Tue Aug 15 7:55:41 UTC 2017.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,0,0,0,0,0,0,0,0,0,0,9], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,0,0,0,0,37], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"Command_chain.php.html#11\">Command_chain<\/a>"],[100,0,"<a href=\"Entity\/Labels.php.html#13\">Labels<\/a>"],[100,0,"<a href=\"Entity\/MapUsersMessages.php.html#13\">MapUsersMessages<\/a>"],[100,0,"<a href=\"Entity\/Messages.php.html#10\">Messages<\/a>"],[100,0,"<a href=\"Entity\/Users.php.html#17\">Users<\/a>"],[100,2,"<a href=\"Message_base.php.html#17\">Message_base<\/a>"],[100,23,"<a href=\"Messages_model.php.html#19\">Messages_model<\/a>"],[100,26,"<a href=\"Model.php.html#12\">Model<\/a>"],[0,3,"<a href=\"Save_command.php.html#12\">Save_command<\/a>"],[0,4,"<a href=\"Send_command.php.html#12\">Send_command<\/a>"],[100,2,"<a href=\"User_base.php.html#10\">User_base<\/a>"],[100,10,"<a href=\"Users_model.php.html#12\">Users_model<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Command_chain.php.html#18\">Command_chain::add_command<\/a>"],[0,3,"<a href=\"Command_chain.php.html#29\">Command_chain::run_command<\/a>"],[100,1,"<a href=\"Message_base.php.html#19\">Message_base::__construct<\/a>"],[100,1,"<a href=\"Message_base.php.html#39\">Message_base::get_message_object<\/a>"],[100,1,"<a href=\"Messages_model.php.html#21\">Messages_model::__construct<\/a>"],[100,1,"<a href=\"Messages_model.php.html#32\">Messages_model::store<\/a>"],[100,4,"<a href=\"Messages_model.php.html#46\">Messages_model::star<\/a>"],[100,3,"<a href=\"Messages_model.php.html#76\">Messages_model::mark_as_read<\/a>"],[100,3,"<a href=\"Messages_model.php.html#101\">Messages_model::mark_as_unread<\/a>"],[100,3,"<a href=\"Messages_model.php.html#126\">Messages_model::delete<\/a>"],[100,1,"<a href=\"Messages_model.php.html#149\">Messages_model::get_single_message<\/a>"],[100,3,"<a href=\"Messages_model.php.html#182\">Messages_model::get_messages_list<\/a>"],[100,2,"<a href=\"Messages_model.php.html#223\">Messages_model::get_label_id<\/a>"],[100,2,"<a href=\"Messages_model.php.html#240\">Messages_model::_get_label<\/a>"],[100,1,"<a href=\"Model.php.html#16\">Model::__construct<\/a>"],[100,2,"<a href=\"Model.php.html#29\">Model::is_present<\/a>"],[100,4,"<a href=\"Model.php.html#48\">Model::load_from_array<\/a>"],[100,1,"<a href=\"Model.php.html#71\">Model::get_primary_key<\/a>"],[100,3,"<a href=\"Model.php.html#85\">Model::get_entity_object<\/a>"],[100,2,"<a href=\"Model.php.html#110\">Model::get_from_array<\/a>"],[100,1,"<a href=\"Model.php.html#125\">Model::set_custom_doctrine_type<\/a>"],[100,1,"<a href=\"Model.php.html#140\">Model::save_to_cache<\/a>"],[100,3,"<a href=\"Model.php.html#152\">Model::get_from_cache<\/a>"],[100,1,"<a href=\"Model.php.html#170\">Model::get_repository<\/a>"],[100,1,"<a href=\"Model.php.html#180\">Model::remove<\/a>"],[100,1,"<a href=\"Model.php.html#192\">Model::find<\/a>"],[100,1,"<a href=\"Model.php.html#201\">Model::flush<\/a>"],[100,1,"<a href=\"Model.php.html#211\">Model::persist<\/a>"],[100,1,"<a href=\"Model.php.html#224\">Model::get_count<\/a>"],[100,1,"<a href=\"Model.php.html#234\">Model::begin_transaction<\/a>"],[100,1,"<a href=\"Model.php.html#242\">Model::commit<\/a>"],[0,3,"<a href=\"Save_command.php.html#21\">Save_command::handle<\/a>"],[0,4,"<a href=\"Send_command.php.html#21\">Send_command::handle<\/a>"],[100,1,"<a href=\"User_base.php.html#12\">User_base::__construct<\/a>"],[100,1,"<a href=\"User_base.php.html#30\">User_base::get_user_object<\/a>"],[100,1,"<a href=\"Users_model.php.html#14\">Users_model::__construct<\/a>"],[100,2,"<a href=\"Users_model.php.html#25\">Users_model::signup<\/a>"],[100,3,"<a href=\"Users_model.php.html#45\">Users_model::login<\/a>"],[100,2,"<a href=\"Users_model.php.html#68\">Users_model::check_email_exists<\/a>"],[100,1,"<a href=\"Users_model.php.html#88\">Users_model::get_users_list<\/a>"],[100,1,"<a href=\"Users_model.php.html#106\">Users_model::get_full_name<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
