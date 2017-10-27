@@ -6,9 +6,7 @@
 
 Unleash is a platform that would foster innovation in organizations. As web application developed on LAMP stack, unleah would help employees to share ideas, discuss them, collaborate and convert the ideas to solutions.
 
-Version 1.0:
-
-This version has the features like Signup, Signin, Users, Messaging system. This version demonstrates how to write clean PHP code CodeIgniter MVC framework. It also demostrates better code architecture and programming techniques by using the following tools:
+This version (Version 1.0) has the features like Signup, Signin, Users, Messaging system. This version demonstrates how to write clean PHP code CodeIgniter MVC framework. It also demostrates better code architecture and programming techniques by using the following tools:
 
 * Version
 1.0
