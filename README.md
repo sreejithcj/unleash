@@ -14,7 +14,7 @@ This version (Version 1.0) has the features like signup, signin, users and inter
 * PHP_CodeSniffer - for coding standards. 
 * memcached - for application caching.
 
-* Version - 1.0
+Version - 1.0
 
 ### How do I get set up? ###
 
